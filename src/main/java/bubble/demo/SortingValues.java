@@ -1,14 +1,11 @@
 package bubble.demo;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
 public class SortingValues {
 
 
-    @RequestMapping("/")
-    public static void BubbleSort( String[] args )
+
+    public static void main( String[] args )
     {
         int[] arr = { 45, 87, 39, 32, 93, 86, 12, 44, 75, 50 };
         int temp;
